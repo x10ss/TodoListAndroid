@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/cardview_dark_background"
+    android:layout_marginBottom="9dp">
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/todoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="5dp"/>
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/todoString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="5dp"/>
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/todoDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="5dp"/>
+
+    <Button
+        android:id="@+id/todoDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:layout_marginHorizontal="5dp"/>
+
+</LinearLayout>
+
